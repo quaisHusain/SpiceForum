@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Forum where users can Ask Questions as well as Answer the questions.
+The Users can comment on the Questions and also comment on a comment to have a side discussion.
 
-Things you may want to cover:
+Installation Steps:
+- Clone the repository 
+- Run "rake db:migrate"
+- Run "rake db:seed"
+- Run "rails s"
 
-* Ruby version
+visit "http://localhost:3000"
+You'll have the forum up and running.
 
-* System dependencies
+Now Login using id "qh@gmail.com" password "123456"
+or create your own user via sign up
 
-* Configuration
+You would be able to see one Forum "Rails Questions"
+Click on the Forum and you will see 2 Questions.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Click on the first Question and you will see the Question details as well as the comments.

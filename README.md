@@ -5,6 +5,7 @@ The Users can comment on the Questions and also comment on a comment to have a s
 
 Installation Steps:
 - Clone the repository 
+- Do "bundle install"
 - Run "rake db:migrate"
 - Run "rake db:seed"
 - Run "rails s"

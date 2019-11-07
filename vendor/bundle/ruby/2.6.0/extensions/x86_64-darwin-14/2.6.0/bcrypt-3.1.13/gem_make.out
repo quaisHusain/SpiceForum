@@ -1,5 +1,5 @@
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
-/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191106-30548-q7h9l0.rb extconf.rb
+/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191107-49502-s1tggb.rb extconf.rb
 creating Makefile
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
@@ -32,4 +32,4 @@ linking shared-object bcrypt_ext.bundle
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20191106-30548-9s2bzf
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20191107-49502-1i8lgaq

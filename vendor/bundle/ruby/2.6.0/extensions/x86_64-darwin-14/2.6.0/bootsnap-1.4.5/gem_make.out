@@ -1,5 +1,5 @@
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
-/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191106-30548-1sitzb8.rb extconf.rb
+/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191107-49502-bbfg1m.rb extconf.rb
 creating Makefile
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20191106-30548-1u3i8wh/bootsnap
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20191107-49502-f92qqa/bootsnap

@@ -1,5 +1,5 @@
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
-/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191106-30548-nb64xi.rb extconf.rb
+/Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/mohammedqubhawala/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191107-49502-uhzvah.rb extconf.rb
 creating Makefile
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
@@ -12,4 +12,4 @@ linking shared-object websocket_mask.bundle
 
 current directory: /Users/mohammedqubhawala/spice_work_test/spice_forum/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20191106-30548-12978io
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20191107-49502-1ld6862

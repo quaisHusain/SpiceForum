@@ -8,6 +8,7 @@ Installation Steps:
 - Do "bundle install"
 - Run "rake db:migrate"
 - Run "rake db:seed"
+- Run "bundle exec rspec spec" to run the test cases
 - Run "rails s"
 
 visit "http://localhost:3000"

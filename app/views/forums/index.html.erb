@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Forums</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th width="70%">Forum</th>
+      <th width="30%">Last Question</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @forums.each do |forum| %>
+      <tr>
+        <td>
+          <h4><%= link_to h(forum.name), forum_path(forum.id) %></h4>
+          <small><%= forum.questions.count %> questions</small><br />
+          <%=h forum.description %>
+        </td>
+        <td class="right"></td>
+        <td><%= link_to 'Show', forum %></td>
+        <td><%= link_to 'Edit', edit_forum_path(forum) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Forum', new_forum_path %>

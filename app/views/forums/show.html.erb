@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @forum.name %>
+</p>
+
+<table>
+  <tr>
+    <th width="60%">Question</th>
+    <th width="10%">Answers</th>
+  </tr>
+  <% for question in @forum.questions %>
+    <tr>
+      <td><%= link_to h(question.title), question_path(question.id) %>
+      <td><%= !question.answers.nil? ? question.answers.length : 0 %></td>
+      <td><%= link_to "Edit", edit_question_path(question) %></td>
+    </tr>
+  <% end %>
+</table>
+ 
+<p><%= link_to "New Question", "/questions/new?forum=#{@forum.id}" %></p>
+<%= link_to 'Back', forums_path %>

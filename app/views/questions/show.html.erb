@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @question.title %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @question.body %>
+</p>
+
+<p>
+  <strong>Answers:</strong>
+  
+</p>
+<% for answer in @question.answers %>
+<div class="answer">
+  <span class="left"><%= answer.user.email %><br /><%= link_to "Delete", answer, :confirm => 'Are you sure?', :method => :delete%></span>
+  <span class="right"><%= answer.content %></span>
+</div>
+<% end %>
+ 
+<p>
+  <%= link_to "Reply", "#{new_answer_path}?question=#{@question.id}" %> |
+  <%= link_to "View All", forum_path(@question.forum_id) %>
+</p>
